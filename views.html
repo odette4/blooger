@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>blogPost</title>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="E:\SheCAN\logo.PNG">
+        </div>
+        <div class="navbar">
+        <a href="" class="active">Home</a>
+        <a href="">About us</a>
+        <a href="">views all</a>
+
+        <a href=""  onclick="document.getElementById('showModal').style.display='block'">Sign in</a>
+    </div>
+    </div>
+    <div id="showModal" class="signinModal"> 
+        <div class="signinCard">
+
+            <span id="close"  onclick="document.getElementById('showModal').style.display='none'" class="close"  >&times</span>
+
+            <h1>Login Form</h1>
+
+            <label><b> Username:</b></label>
+            <input class="inputlogin" type="text" placeholder="enter Username" name="uname"><br> <br>
+
+            <label><b> password:</b></label>
+            <input class="inputlogin" type="password" placeholder="enter password" name="password"><br> <br>
+
+            <button class="loginbutton" type="submit">login</button><br> <br>
+            <label>
+
+                <input type="checkbox" checked="checked" name="remember">
+                remember
+            </label> <br>
+            
+            <button type="button" class="btn">I'm new here</button><br>
+           
+        </div>
+    
+    </div>
+
+    <div class="container">
+
+        <div class="leftside">
+<h2>Categories</h2>
+      <a href="">Networking engineer</a><br> <br>
+      <a href="">Web/Software Developer</a><br> <br>
+      <a href="">M.Auto Mobile engineer</a><br> <br>
+      <a href="">Analyste</a><br> <br>
+        </div>
+        <div class="content">
+            <div class="searchcontainer" >
+                <form>
+                    <input type="text" placeholder="Search" name="Search" class="input_search">
+                </form>
+            </div>
+            <div class="blockcontainer">
+                <div class="blockcontent">
+                    <img src="E:\SheCAN\net2.PNG" class="blockpic">
+                    <div class="blockpic">
+                        <h2>Learn about building Materials</h2>
+                        <p>  is bonded together by cement and water.</p>
+                        <a href="">read more...</a>
+                    </div>
+                </div>
+                
+                <div class="blockcontent">
+                    <img src="E:\SheCAN\net1.PNG" class="blockpic">
+                    <div class="blogcontent">
+                        <h2>Learn about building Materials</h2>
+                        <p>material consisting of a hard, chemically inert that is bonded together by cement and water.</p>
+                        <a href="">read more...</a>
+                    </div>
+                </div>
+                <div class="blockcontent">
+                    <img src="E:\SheCAN\mech2.PNG" class="blockpic">
+                    <div class="blogcontent">
+                        <h2>Learn about building Materials</h2>
+                        <p>  material consisting of a hard, chemically inert that is bonded together by cement and water.</p>
+                        <a href="">read more...</a>
+                    </div>
+                </div>
+                <div class="blockcontent">
+                    <img src="E:\SheCAN\mech1.PNG" class="blockpic">
+                    <div class="blogcontent">
+                        <h2>Learn about building Materials</h2>
+                        <p>  material consisting of a hard, chemically inert that is bonded together by cement and water.</p>
+                        <a href="">read more...</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script href="script.js"/>
+</body>
+</html>
